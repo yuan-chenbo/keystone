@@ -1,0 +1,7 @@
+E:\pango\syn\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  E:\Image_Rotat_master\Image\synthesize\synplify_impl\synwork\synplify_comp.srs  -osyn  E:\Image_Rotat_master\Image\synthesize\synplify_impl\synwork\synplify_mult.srs  -log  E:\Image_Rotat_master\Image\synthesize\synplify_impl\synlog\synplify_multi_srs_gen.srr 
+relcom:..\..\..\..\..\pango\syn\bin64\syn_nfilter.exe -link -top top -multisrs ..\synwork\synplify_comp.srs -osyn ..\synwork\synplify_mult.srs -log ..\synlog\synplify_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\synplify_comp.srs|io:i|time:1605349647|size:247783|exec:0|csum:0D36F1B4B3B6C0888E4E84C8E4761E2E
+file:..\synwork\synplify_mult.srs|io:o|time:1605349650|size:23012|exec:0|csum:
+file:..\synlog\synplify_multi_srs_gen.srr|io:o|time:1605349650|size:1137|exec:0|csum:
+file:..\..\..\..\..\pango\syn\bin64\syn_nfilter.exe|io:i|time:1554698560|size:8823808|exec:1|csum:3618916D7958985CF38A6328459776F6

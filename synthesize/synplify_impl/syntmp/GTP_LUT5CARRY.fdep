@@ -1,0 +1,21 @@
+#OPTIONS:"|-modgen|-top|GTP_LUT5CARRY|-I|E:\\pango\\syn\\lib|-devicelib|E:\\pango\\syn\\lib\\xilinx\\unisim.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000|-params|E:\\Image_Rotat_master\\Image\\synthesize\\synplify_impl\\syntmp\\GTP_LUT5CARRY.param"
+#CUR:"E:\\pango\\syn\\bin64\\c_ver.exe":1554698400
+#CUR:"E:\\pango\\syn\\lib\\vlog\\hypermods.v":1554698632
+#CUR:"E:\\pango\\syn\\lib\\vlog\\umr_capim.v":1554698632
+#CUR:"E:\\pango\\syn\\lib\\vlog\\scemi_objects.v":1554698632
+#CUR:"E:\\pango\\syn\\lib\\vlog\\scemi_pipes.svh":1554698632
+#CUR:"E:\\Image_Rotat_master\\Image\\synthesize\\synplify_impl\\syntmp\\GTP_LUT5CARRY.v":1554698584
+#CUR:"E:\\Image_Rotat_master\\Image\\synthesize\\synplify_impl\\syntmp\\GTP_LUT5CARRY.param":1605349812
+#numinternalfiles:4
+#defaultlanguage:verilog
+0			"E:\Image_Rotat_master\Image\synthesize\synplify_impl\syntmp\GTP_LUT5CARRY.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work INT_LUTMUX4_UDP 0
+module work INT_LUTMUX2_UDP 0
+module work GTP_LUT5CARRY 0
+module work GTP_LUT5 0
+module work GTP_LUT6CARRY 0

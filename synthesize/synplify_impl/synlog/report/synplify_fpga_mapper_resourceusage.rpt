@@ -1,0 +1,408 @@
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: pgl22gbg324-6
+Cell usage:
+GTP_APM_E1      4 uses
+GTP_DDC_E1      5 uses
+GTP_DDRC        1 use
+GTP_DDRPHY      1 use
+GTP_DFF         181 uses
+GTP_DFF_C       775 uses
+GTP_DFF_CE      4489 uses
+GTP_DFF_E       31 uses
+GTP_DFF_P       16 uses
+GTP_DFF_PE      3 uses
+GTP_DFF_R       35 uses
+GTP_DFF_RE      37 uses
+GTP_DFF_S       6 uses
+GTP_DFF_SE      10 uses
+GTP_DLL         2 uses
+GTP_DRM18K      11 uses
+GTP_DRM9K       1 use
+GTP_GRS         1 use
+GTP_INV         81 uses
+GTP_IOCLKBUF    2 uses
+GTP_IOCLKDIV    1 use
+GTP_IODELAY     16 uses
+GTP_ISERDES     16 uses
+GTP_LUT2        662 uses
+GTP_LUT3        2930 uses
+GTP_LUT4        595 uses
+GTP_LUT5        432 uses
+GTP_LUT5CARRY   4799 uses
+GTP_LUT5M       1046 uses
+GTP_MUX2LUT6    554 uses
+GTP_MUX2LUT7    277 uses
+GTP_MUX2LUT8    128 uses
+GTP_OSERDES     54 uses
+GTP_PLL_E1      2 uses
+GTP_RAM16X1DP   16 uses
+GTP_RAM16X1SP   16 uses
+GTP_ROM256X1    22 uses
+GTP_ROM32X1     7 uses
+GTP_ROM64X1     30 uses
+
+I/O ports: 87
+GTP_INBUF      16 uses
+GTP_INBUFG     2 uses
+GTP_IOBUF      18 uses
+GTP_IOBUFCO    2 uses
+GTP_OUTBUF     7 uses
+GTP_OUTBUFT    37 uses
+GTP_OUTBUFTCO  1 use
+
+
+RAM/ROM usage summary
+
+Distributed Rams : 67.00 of 1110 (6.04%)
+
+
+Mapping Summary:
+Total LUTs: 10739 of 17536 (61.24%)
+	LUTs as dram: 32 of 4440 (0.72%)
+	LUTs as logic: 10707 
+Total Registers: 5583 of 26304 (21.22%)
+Total Muxes:   959
+
+DRM18K:
+Total DRM18K =  11.5 of 48 (23.96%)
+
+APMs:
+Total APMs =  4.00 of 30 (13.33%)
+
+Total I/O primitives =  83 of 240 (34.58%)
+
+
+ Number of unique control sets:              330
+ CLK(clkout0_i), R(region_active_d0_i_0), S(GND), CE(CO0)		: 2
+ CLK(clkout0_i), C(rst_n_c_i_0), P(GND), CE(VCC)		: 107
+ CLK(clkout0_i), C(GND), P(GND), CE(VCC)		: 123
+ CLK(clkout0_i), R(osd_ram_addr7), S(GND), CE(osd_ram_addre)		: 15
+ CLK(clkout0_i), R(region_active_d0_i_0), S(GND), CE(VCC)		: 1
+ CLK(clkout0_i), C(rst_n_c_i_0), P(GND), CE(y_cnte)		: 12
+ CLK(clkout0_i), C(rst_n_c_i_0), P(GND), CE(hs_reg5)		: 12
+ CLK(clkout0_i), C(GND), P(GND), CE(rst_n_c)		: 3
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(VCC)		: 247
+ CLK(clkout3_i), C(GND), P(GND), CE(VCC)		: 2
+ CLK(clkout3_i), C(GND), P(rst_n_c_i_0), CE(VCC)		: 7
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(reg_wr_adrs_0_sqmuxa)		: 8
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(rd_state_0_sqmuxa)		: 10
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(un1_MASTER_RST_2_0_0)		: 21
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(un1_M_AXI_AWLOCK_15_0)		: 21
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(reg_w_lene)		: 16
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(reg_r_lene)		: 16
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(N_150_i)		: 2
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(un1_MASTER_RST_2_0_0_0)		: 21
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(reg_wr_lence[0])		: 2
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(un1_M_AXI_AWLOCK_15_0_0_0)		: 21
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(reg_rd_lence[0])		: 2
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(rd_fifo_cnte)		: 32
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(dll_step_copy_synced4_NE_i_0)		: 8
+ CLK(clkout1_i), C(GND), P(global_reset_i_0), CE(VCC)		: 5
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(VCC)		: 40
+ CLK(dll_update_n_i), C(global_reset_i_0), P(GND), CE(VCC)		: 8
+ CLK(clkout1_i), C(GND), P(GND), CE(VCC)		: 34
+ CLK(clkout1_i), C(GND), P(global_reset_i_0), CE(N_80_i_0)		: 1
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(N_80_i_0)		: 1
+ CLK(clkout1_i), C(rst_n_c_i_0), P(GND), CE(VCC)		: 17
+ CLK(clkout1_i), C(GND), P(rst_n_c_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), C(rst_n_c_i_0), P(GND), CE(N_6_i_0)		: 8
+ CLK(clkout1_i), C(presetn_i_0), P(GND), CE(VCC)		: 3
+ CLK(clkout1_i), C(presetn_i_0), P(GND), CE(cnte)		: 7
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(un1_init_preset8_0_a2)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(un1_init_preset8_0_a2)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(ddrc_init_done)		: 1
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(ddrc_init_done)		: 1
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(ddrc_rst_cnte)		: 5
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(rst_cnt7)		: 5
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(wr_burst_data_reg5)		: 64
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(state_ns_i_0_o2[0])		: 24
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(wait_cnte)		: 8
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(read_cntlde_i_a3_0_a3_i_0)		: 26
+ CLK(clkout0_i), C(read_fifo_aclr), P(GND), CE(VCC)		: 52
+ CLK(clkout3_i), C(read_fifo_aclr), P(GND), CE(VCC)		: 64
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(write_cnte)		: 26
+ CLK(clkout3_i), C(write_fifo_aclr), P(GND), CE(VCC)		: 59
+ CLK(cmos_pclk_c[0]), C(write_fifo_aclr), P(GND), CE(VCC)		: 52
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(VCC)		: 106
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[510\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[508\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[506\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[504\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[502\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[500\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[498\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[496\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[494\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[492\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[490\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[488\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[486\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[484\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[482\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[480\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[478\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[476\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[474\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[472\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[470\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[468\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[466\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[464\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[462\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[460\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[458\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[456\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[454\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[452\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[450\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[448\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[446\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[444\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[442\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[440\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[438\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[436\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[434\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[432\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[430\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[428\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[426\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[424\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[422\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[420\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[418\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[416\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[414\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[412\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[410\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[408\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[406\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[404\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[402\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[400\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[398\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[396\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[394\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[392\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[390\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[388\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[386\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[384\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[382\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[380\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[378\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[376\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[374\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[372\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[370\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[368\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[366\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[364\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[362\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[360\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[358\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[356\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[354\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[352\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[350\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[348\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[346\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[344\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[342\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[340\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[338\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[336\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[334\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[332\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[330\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[328\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[326\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[324\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[322\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[320\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[318\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[316\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[314\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[312\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[310\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[308\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[306\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[304\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[302\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[300\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[298\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[296\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[294\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[292\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[290\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[288\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[286\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[284\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[282\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[280\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[278\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[276\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[274\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[272\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[270\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[268\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[266\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[264\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[262\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[260\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[258\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[256\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[254\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[252\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[250\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[248\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[246\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[244\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[242\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[240\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[238\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[236\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[234\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[232\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[230\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[228\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[226\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[224\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[222\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[220\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[218\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[216\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[214\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[212\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[210\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[208\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[206\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[204\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[202\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[200\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[198\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[196\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[194\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[192\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[190\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[188\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[186\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[184\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[182\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[180\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[178\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[176\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[174\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[172\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[170\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[168\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[166\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[164\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[162\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[160\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[158\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[156\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[154\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[152\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[150\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[148\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[146\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[144\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[142\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[140\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[138\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[136\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[134\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[132\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[130\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[128\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[126\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[124\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[122\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[120\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[118\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[116\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[114\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[112\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[110\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[108\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[106\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[104\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[102\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[100\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[98\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[96\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[94\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[92\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[90\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[88\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[86\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[84\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[82\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[80\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[78\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[76\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[74\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[72\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[70\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[68\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[66\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[64\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[62\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[60\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[58\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[56\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[54\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[52\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[50\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[48\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[46\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[44\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[42\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[40\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[38\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[36\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[34\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[32\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[30\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[28\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[26\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[24\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[22\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[20\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[18\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[16\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[14\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[12\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[10\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[8\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[6\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[4\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[2\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(h_data0\[0\]_0_sqmuxa)		: 16
+ CLK(cmos_pclk_c[0]), C(GND), P(GND), CE(VCC)		: 8
+ CLK(cmos_pclk_c[0]), C(GND), P(rst_n_c_i_0), CE(VCC)		: 1
+ CLK(sys_clk_c), R(core_cmd46), S(GND), CE(clk_en)		: 15
+ CLK(sys_clk_c), R(un1_cSCL8_3_i_0), S(GND), CE(VCC)		: 12
+ CLK(sys_clk_c), C(GND), P(GND), CE(VCC)		: 20
+ CLK(sys_clk_c), R(rst_n_c_i_0), S(GND), CE(VCC)		: 6
+ CLK(sys_clk_c), C(GND), P(GND), CE(cnte)		: 16
+ CLK(sys_clk_c), R(core_cmd46), S(GND), CE(VCC)		: 4
+ CLK(sys_clk_c), C(GND), P(GND), CE(un1_sda_oen_0_sqmuxa_0)		: 2
+ CLK(sys_clk_c), C(GND), P(GND), CE(un1_scl_oen_0_sqmuxa_0)		: 2
+ CLK(sys_clk_c), R(i2c_al), S(GND), CE(VCC)		: 3
+ CLK(sys_clk_c), C(GND), P(GND), CE(un1_cSCL8_3_i_0)		: 6
+ CLK(sys_clk_c), R(rst_n_c_i_0), S(GND), CE(shift_ns)		: 3
+ CLK(sys_clk_c), R(core_cmd46), S(GND), CE(core_ack)		: 1
+ CLK(sys_clk_c), C(GND), P(GND), CE(core_cmd_4_sqmuxa_i_0_0)		: 4
+ CLK(sys_clk_c), C(GND), P(GND), CE(un1_rst_2_i_0)		: 8
+ CLK(sys_clk_c), C(rst_n_c_i_0), P(GND), CE(VCC)		: 20
+ CLK(sys_clk_c), C(rst_n_c_i_0), P(GND), CE(done)		: 3
+ CLK(sys_clk_c), C(GND), P(rst_n_c_i_0), CE(VCC)		: 1
+ CLK(sys_clk_c), C(rst_n_c_i_0), P(GND), CE(lut_indexe)		: 10
+ CLK(clkout1_i), R(TMDS_mod5[2]), S(GND), CE(CO0)		: 1
+ CLK(clkout1_i), R(TMDS_mod5[2]), S(GND), CE(VCC)		: 9
+

@@ -1,0 +1,272 @@
+#OPTIONS:"|-layerid|0|-orig_srs|E:\\Image_Rotat_master\\Image\\synthesize\\synplify_impl\\synwork\\synplify_comp.srs|-top|top|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-dspmac|-nram|-divnmod|-nostructver|-I|E:\\Image_Rotat_master\\Image|-I|E:\\Image_Rotat_master\\Image\\synthesize\\|-I|E:\\pango\\syn\\lib|-v2001|-devicelib|E:\\pango\\syn\\lib\\generic\\logos.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"E:\\pango\\syn\\bin64\\c_ver.exe":1554698400
+#CUR:"E:\\pango\\syn\\lib\\generic\\logos.v":1554698584
+#CUR:"E:\\pango\\syn\\lib\\vlog\\hypermods.v":1554698632
+#CUR:"E:\\pango\\syn\\lib\\vlog\\umr_capim.v":1554698632
+#CUR:"E:\\pango\\syn\\lib\\vlog\\scemi_objects.v":1554698632
+#CUR:"E:\\pango\\syn\\lib\\vlog\\scemi_pipes.svh":1554698632
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\coor_trans\\hdl\\coor_trans.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\coor_trans\\hdl\\coor_trans_forward.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\coor_trans\\hdl\\coor_trans_reverse.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\coor_trans\\hdl\\cos_table.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\coor_trans\\hdl\\sin_table.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\ddr3.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\ipsl_ddrc_apb_reset.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\ipsl_ddrc_reset_ctrl.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\ipsl_ddrphy_dll_update_ctrl.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\ipsl_ddrphy_reset_ctrl.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\ipsl_ddrphy_training_ctrl.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\ipsl_ddrphy_update_ctrl.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\ipsl_hmemc_ddrc_top.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\ipsl_hmemc_phy_top.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\ipsl_phy_io.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\ddr3\\rtl\\pll\\pll_50_400.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\display_module\\char_array_decode.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\display_module\\Char_Pic_Disply.v":1605266371
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\display_module\\char2_array_decode.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\display_module\\RGB_Gary_Binary.v":1605334725
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\display_module\\timing_gen_xy.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\display_module\\video_timing_data.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\dvi_tx\\dvi_encoder.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\dvi_tx\\encode.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\dvi_tx\\serdes_4b_10to1.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\i2c_master\\i2c_config.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\i2c_master\\i2c_master_bit_ctrl.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\i2c_master\\i2c_master_defines.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\i2c_master\\i2c_master_byte_ctrl.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\i2c_master\\i2c_master_defines.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\i2c_master\\i2c_master_defines.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\i2c_master\\i2c_master_top.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\aq_axi_master.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\cmos_8_16bit.v":1605231630
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\cmos_write_req_gen.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\frame_fifo_read.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\frame_fifo_write.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\frame_read_write.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\Key_Module.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\lut_ov5640_rgb565_1024_768.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\top.v":1605266042
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\display_module\\color_bar.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\display_module\\video_define.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\display_module\\video_define.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\sources_1\\image_processing.v":1605349588
+#CUR:"E:\\Image_Rotat_master\\Image\\source\\div.v":1605272303
+#CUR:"E:\\Image_Rotat_master\\Image\\ipcore\\osd_rom\\osd_rom.v":1605247670
+#CUR:"E:\\Image_Rotat_master\\Image\\ipcore\\osd_rom\\rtl\\ipml_rom_v1_3_osd_rom.v":1605247670
+#CUR:"E:\\Image_Rotat_master\\Image\\ipcore\\afifo_16i_16o_512\\rtl\\ipml_fifo_v1_4_afifo_16i_16o_512.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\ipcore\\afifo_16i_16o_512\\afifo_16i_16o_512.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\ipcore\\video_pll\\video_pll.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\ipcore\\afifo_16i_16o_512\\rtl\\ipml_fifo_ctrl_v1_3.v":1588692580
+#CUR:"E:\\Image_Rotat_master\\Image\\ipcore\\osd_rom\\rtl\\ipml_spram_v1_3_osd_rom.v":1605247670
+#CUR:"E:\\Image_Rotat_master\\Image\\ipcore\\osd_rom\\rtl\\osd_rom_init_param.v":1605247670
+#CUR:"E:\\Image_Rotat_master\\Image\\ipcore\\afifo_16i_16o_512\\rtl\\ipml_sdpram_v1_4_afifo_16i_16o_512.v":1588692580
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"E:\Image_Rotat_master\Image\source\coor_trans\hdl\coor_trans.v" verilog
+1			"E:\Image_Rotat_master\Image\source\coor_trans\hdl\coor_trans_forward.v" verilog
+2			"E:\Image_Rotat_master\Image\source\coor_trans\hdl\coor_trans_reverse.v" verilog
+3			"E:\Image_Rotat_master\Image\source\coor_trans\hdl\cos_table.v" verilog
+4			"E:\Image_Rotat_master\Image\source\coor_trans\hdl\sin_table.v" verilog
+5			"E:\Image_Rotat_master\Image\source\ddr3\ddr3.v" verilog
+6			"E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrc_apb_reset.v" verilog
+7			"E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrc_reset_ctrl.v" verilog
+8			"E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v" verilog
+9			"E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v" verilog
+10			"E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrphy_training_ctrl.v" verilog
+11			"E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrphy_update_ctrl.v" verilog
+12			"E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_hmemc_ddrc_top.v" verilog
+13			"E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_hmemc_phy_top.v" verilog
+14			"E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_phy_io.v" verilog
+15			"E:\Image_Rotat_master\Image\source\ddr3\rtl\pll\pll_50_400.v" verilog
+16			"E:\Image_Rotat_master\Image\source\display_module\char_array_decode.v" verilog
+17			"E:\Image_Rotat_master\Image\source\display_module\Char_Pic_Disply.v" verilog
+18			"E:\Image_Rotat_master\Image\source\display_module\char2_array_decode.v" verilog
+19			"E:\Image_Rotat_master\Image\source\display_module\RGB_Gary_Binary.v" verilog
+20			"E:\Image_Rotat_master\Image\source\display_module\timing_gen_xy.v" verilog
+21			"E:\Image_Rotat_master\Image\source\display_module\video_timing_data.v" verilog
+22			"E:\Image_Rotat_master\Image\source\dvi_tx\dvi_encoder.v" verilog
+23			"E:\Image_Rotat_master\Image\source\dvi_tx\encode.v" verilog
+24			"E:\Image_Rotat_master\Image\source\dvi_tx\serdes_4b_10to1.v" verilog
+25			"E:\Image_Rotat_master\Image\source\i2c_master\i2c_config.v" verilog
+26			"E:\Image_Rotat_master\Image\source\i2c_master\i2c_master_bit_ctrl.v" verilog
+27		*	"E:\Image_Rotat_master\Image\source\i2c_master\i2c_master_defines.v" verilog
+28			"E:\Image_Rotat_master\Image\source\i2c_master\i2c_master_byte_ctrl.v" verilog
+29			"E:\Image_Rotat_master\Image\source\i2c_master\i2c_master_top.v" verilog
+30			"E:\Image_Rotat_master\Image\source\sources_1\aq_axi_master.v" verilog
+31			"E:\Image_Rotat_master\Image\source\sources_1\cmos_8_16bit.v" verilog
+32			"E:\Image_Rotat_master\Image\source\sources_1\cmos_write_req_gen.v" verilog
+33			"E:\Image_Rotat_master\Image\source\sources_1\frame_fifo_read.v" verilog
+34			"E:\Image_Rotat_master\Image\source\sources_1\frame_fifo_write.v" verilog
+35			"E:\Image_Rotat_master\Image\source\sources_1\frame_read_write.v" verilog
+36			"E:\Image_Rotat_master\Image\source\sources_1\Key_Module.v" verilog
+37			"E:\Image_Rotat_master\Image\source\sources_1\lut_ov5640_rgb565_1024_768.v" verilog
+38			"E:\Image_Rotat_master\Image\source\sources_1\top.v" verilog
+39			"E:\Image_Rotat_master\Image\source\display_module\color_bar.v" verilog
+40		*	"E:\Image_Rotat_master\Image\source\display_module\video_define.v" verilog
+41			"E:\Image_Rotat_master\Image\source\sources_1\image_processing.v" verilog
+42			"E:\Image_Rotat_master\Image\source\div.v" verilog
+43			"E:\Image_Rotat_master\Image\ipcore\osd_rom\osd_rom.v" verilog
+44			"E:\Image_Rotat_master\Image\ipcore\osd_rom\rtl\ipml_rom_v1_3_osd_rom.v" verilog
+45			"E:\Image_Rotat_master\Image\ipcore\afifo_16i_16o_512\rtl\ipml_fifo_v1_4_afifo_16i_16o_512.v" verilog
+46			"E:\Image_Rotat_master\Image\ipcore\afifo_16i_16o_512\afifo_16i_16o_512.v" verilog
+47			"E:\Image_Rotat_master\Image\ipcore\video_pll\video_pll.v" verilog
+48			"E:\Image_Rotat_master\Image\ipcore\afifo_16i_16o_512\rtl\ipml_fifo_ctrl_v1_3.v" verilog
+49			"E:\Image_Rotat_master\Image\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v" verilog
+50		*	"E:\Image_Rotat_master\Image\ipcore\osd_rom\rtl\osd_rom_init_param.v" verilog
+51			"E:\Image_Rotat_master\Image\ipcore\afifo_16i_16o_512\rtl\ipml_sdpram_v1_4_afifo_16i_16o_512.v" verilog
+#Dependency Lists(Uses List)
+0 1 3 4 2
+1 -1
+2 -1
+3 -1
+4 -1
+5 15 13 12
+6 -1
+7 6
+8 -1
+9 -1
+10 -1
+11 -1
+12 7
+13 9 10 8 11 14
+14 -1
+15 -1
+16 -1
+17 43
+18 -1
+19 -1
+20 -1
+21 39 40
+22 23 24
+23 -1
+24 -1
+25 29
+26 27
+27 -1
+28 27 26
+29 28 27
+30 -1
+31 -1
+32 -1
+33 -1
+34 -1
+35 46 34 33
+36 -1
+37 -1
+38 47 22 25 37 31 32 35 36 41 5 30 21 20 19 17
+39 40
+40 -1
+41 42
+42 -1
+43 44
+44 49 50
+45 51 48
+46 45
+47 -1
+48 -1
+49 50
+50 -1
+51 -1
+#Dependency Lists(Users Of)
+0 -1
+1 0
+2 0
+3 0
+4 0
+5 38
+6 7
+7 12
+8 13
+9 13
+10 13
+11 13
+12 5
+13 5
+14 13
+15 5
+16 -1
+17 38
+18 -1
+19 38
+20 38
+21 38
+22 38
+23 22
+24 22
+25 38
+26 28
+27 26 28 29
+28 29
+29 25
+30 38
+31 38
+32 38
+33 35
+34 35
+35 38
+36 38
+37 38
+38 -1
+39 21
+40 21 39
+41 38
+42 41
+43 17
+44 43
+45 46
+46 35
+47 38
+48 45
+49 44
+50 44 49
+51 45
+#Design Unit to File Association
+module work coor_trans_forward 1
+module work cos_table 3
+module work sin_table 4
+module work coor_trans_reverse 2
+module work coor_trans 0
+module work pll_50_400 15
+module work ipsl_hmemc_phy_top 13
+module work ipsl_hmemc_ddrc_top 12
+module work ddr3 5
+module work ipsl_ddrc_apb_reset 6
+module work ipsl_ddrc_reset_ctrl 7
+module work ipsl_ddrphy_dll_update_ctrl 8
+module work ipsl_ddrphy_reset_ctrl 9
+module work ipsl_ddrphy_training_ctrl 10
+module work ipsl_ddrphy_update_ctrl 11
+module work ipsl_phy_io 14
+module work char_array_decode 16
+module work osd_rom 43
+module work Char_Pic_Disply 17
+module work char2_array_decode 18
+module work RGB_Gary_Binary 19
+module work timing_gen_xy 20
+module work color_bar 39
+module work video_timing_data 21
+module work encode 23
+module work serdes_4b_10to1 24
+module work dvi_encoder 22
+module work i2c_master_top 29
+module work i2c_config 25
+module work i2c_master_bit_ctrl 26
+module work i2c_master_byte_ctrl 28
+module work aq_axi_master 30
+module work cmos_8_16bit 31
+module work cmos_write_req_gen 32
+module work frame_fifo_read 33
+module work frame_fifo_write 34
+module work afifo_16i_16o_512 46
+module work frame_read_write 35
+module work key_Module 36
+module work lut_ov5640_rgb565_1024_768 37
+module work video_pll 47
+module work image_processing 41
+module work top 38
+module work div 42
+module work ipml_rom_v1_3_osd_rom 44
+module work ipml_spram_v1_3_osd_rom 49
+module work ipml_sdpram_v1_4_afifo_16i_16o_512 51
+module work ipml_fifo_ctrl_v1_3 48
+module work ipml_fifo_v1_4_afifo_16i_16o_512 45

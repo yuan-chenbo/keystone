@@ -1,0 +1,138 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: E:\pango\syn
+OS: Windows 6.2
+
+Hostname: LAPTOP-A17CE172
+
+Implementation : synplify_impl
+Synopsys HDL compiler and linker, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+48       E:\Image_Rotat_master\Image\source\sources_1\image_processing.v (2020-11-14 18:08:27, 2020-11-14 18:26:28)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 2
+MID:  lib.cell.view
+48       work.div.verilog may have changed because the following files changed:
+                        E:\Image_Rotat_master\Image\source\sources_1\image_processing.v (2020-11-14 18:08:27, 2020-11-14 18:26:28) <-- (may instantiate this module)
+23       work.image_processing.verilog may have changed because the following files changed:
+                        E:\Image_Rotat_master\Image\source\sources_1\image_processing.v (2020-11-14 18:08:27, 2020-11-14 18:26:28) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 56
+FID:  path (timestamp)
+0        E:\Image_Rotat_master\Image\ipcore\afifo_16i_16o_512\afifo_16i_16o_512.v (2020-05-05 23:29:40)
+1        E:\Image_Rotat_master\Image\ipcore\afifo_16i_16o_512\rtl\ipml_fifo_ctrl_v1_3.v (2020-05-05 23:29:40)
+2        E:\Image_Rotat_master\Image\ipcore\afifo_16i_16o_512\rtl\ipml_fifo_v1_4_afifo_16i_16o_512.v (2020-05-05 23:29:40)
+3        E:\Image_Rotat_master\Image\ipcore\afifo_16i_16o_512\rtl\ipml_sdpram_v1_4_afifo_16i_16o_512.v (2020-05-05 23:29:40)
+4        E:\Image_Rotat_master\Image\ipcore\osd_rom\osd_rom.v (2020-11-13 14:07:50)
+5        E:\Image_Rotat_master\Image\ipcore\osd_rom\rtl\ipml_rom_v1_3_osd_rom.v (2020-11-13 14:07:50)
+6        E:\Image_Rotat_master\Image\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v (2020-11-13 14:07:50)
+7        E:\Image_Rotat_master\Image\ipcore\osd_rom\rtl\osd_rom_init_param.v (2020-11-13 14:07:50)
+8        E:\Image_Rotat_master\Image\ipcore\video_pll\video_pll.v (2020-05-05 23:29:40)
+9        E:\Image_Rotat_master\Image\source\coor_trans\hdl\coor_trans.v (2020-05-05 23:29:40)
+10       E:\Image_Rotat_master\Image\source\coor_trans\hdl\coor_trans_forward.v (2020-05-05 23:29:40)
+11       E:\Image_Rotat_master\Image\source\coor_trans\hdl\coor_trans_reverse.v (2020-05-05 23:29:40)
+12       E:\Image_Rotat_master\Image\source\coor_trans\hdl\cos_table.v (2020-05-05 23:29:40)
+13       E:\Image_Rotat_master\Image\source\coor_trans\hdl\sin_table.v (2020-05-05 23:29:40)
+14       E:\Image_Rotat_master\Image\source\ddr3\ddr3.v (2020-05-05 23:29:40)
+15       E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrc_apb_reset.v (2020-05-05 23:29:40)
+16       E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrc_reset_ctrl.v (2020-05-05 23:29:40)
+17       E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v (2020-05-05 23:29:40)
+18       E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v (2020-05-05 23:29:40)
+19       E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrphy_training_ctrl.v (2020-05-05 23:29:40)
+20       E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_ddrphy_update_ctrl.v (2020-05-05 23:29:40)
+21       E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_hmemc_ddrc_top.v (2020-05-05 23:29:40)
+22       E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_hmemc_phy_top.v (2020-05-05 23:29:40)
+23       E:\Image_Rotat_master\Image\source\ddr3\rtl\ipsl_phy_io.v (2020-05-05 23:29:40)
+24       E:\Image_Rotat_master\Image\source\ddr3\rtl\pll\pll_50_400.v (2020-05-05 23:29:40)
+25       E:\Image_Rotat_master\Image\source\display_module\Char_Pic_Disply.v (2020-11-13 19:19:31)
+26       E:\Image_Rotat_master\Image\source\display_module\RGB_Gary_Binary.v (2020-11-14 14:18:45)
+27       E:\Image_Rotat_master\Image\source\display_module\char2_array_decode.v (2020-05-05 23:29:40)
+28       E:\Image_Rotat_master\Image\source\display_module\char_array_decode.v (2020-05-05 23:29:40)
+29       E:\Image_Rotat_master\Image\source\display_module\color_bar.v (2020-05-05 23:29:40)
+30       E:\Image_Rotat_master\Image\source\display_module\timing_gen_xy.v (2020-05-05 23:29:40)
+31       E:\Image_Rotat_master\Image\source\display_module\video_define.v (2020-05-05 23:29:40)
+32       E:\Image_Rotat_master\Image\source\display_module\video_timing_data.v (2020-05-05 23:29:40)
+56       E:\Image_Rotat_master\Image\source\div.v (2020-11-13 20:58:23)
+33       E:\Image_Rotat_master\Image\source\dvi_tx\dvi_encoder.v (2020-05-05 23:29:40)
+34       E:\Image_Rotat_master\Image\source\dvi_tx\encode.v (2020-05-05 23:29:40)
+35       E:\Image_Rotat_master\Image\source\dvi_tx\serdes_4b_10to1.v (2020-05-05 23:29:40)
+36       E:\Image_Rotat_master\Image\source\i2c_master\i2c_config.v (2020-05-05 23:29:40)
+37       E:\Image_Rotat_master\Image\source\i2c_master\i2c_master_bit_ctrl.v (2020-05-05 23:29:40)
+38       E:\Image_Rotat_master\Image\source\i2c_master\i2c_master_byte_ctrl.v (2020-05-05 23:29:40)
+39       E:\Image_Rotat_master\Image\source\i2c_master\i2c_master_defines.v (2020-05-05 23:29:40)
+40       E:\Image_Rotat_master\Image\source\i2c_master\i2c_master_top.v (2020-05-05 23:29:40)
+41       E:\Image_Rotat_master\Image\source\sources_1\Key_Module.v (2020-05-05 23:29:40)
+42       E:\Image_Rotat_master\Image\source\sources_1\aq_axi_master.v (2020-05-05 23:29:40)
+43       E:\Image_Rotat_master\Image\source\sources_1\cmos_8_16bit.v (2020-11-13 09:40:30)
+44       E:\Image_Rotat_master\Image\source\sources_1\cmos_write_req_gen.v (2020-05-05 23:29:40)
+45       E:\Image_Rotat_master\Image\source\sources_1\frame_fifo_read.v (2020-05-05 23:29:40)
+46       E:\Image_Rotat_master\Image\source\sources_1\frame_fifo_write.v (2020-05-05 23:29:40)
+47       E:\Image_Rotat_master\Image\source\sources_1\frame_read_write.v (2020-05-05 23:29:40)
+49       E:\Image_Rotat_master\Image\source\sources_1\lut_ov5640_rgb565_1024_768.v (2020-05-05 23:29:40)
+50       E:\Image_Rotat_master\Image\source\sources_1\top.v (2020-11-13 19:14:02)
+51       E:\pango\syn\lib\generic\logos.v (2019-04-08 12:43:04)
+52       E:\pango\syn\lib\vlog\hypermods.v (2019-04-08 12:43:52)
+53       E:\pango\syn\lib\vlog\scemi_objects.v (2019-04-08 12:43:52)
+54       E:\pango\syn\lib\vlog\scemi_pipes.svh (2019-04-08 12:43:52)
+55       E:\pango\syn\lib\vlog\umr_capim.v (2019-04-08 12:43:52)
+
+*******************************************************************
+Unchanged modules: 47
+MID:  lib.cell.view
+0        work.Char_Pic_Disply.verilog
+1        work.RGB_Gary_Binary.verilog
+2        work.afifo_16i_16o_512.verilog
+3        work.aq_axi_master.verilog
+4        work.char2_array_decode.verilog
+5        work.char_array_decode.verilog
+6        work.cmos_8_16bit.verilog
+7        work.cmos_write_req_gen.verilog
+8        work.color_bar.verilog
+9        work.coor_trans.verilog
+10       work.coor_trans_forward.verilog
+11       work.coor_trans_reverse.verilog
+12       work.cos_table.verilog
+13       work.ddr3.verilog
+14       work.dvi_encoder.verilog
+15       work.encode.verilog
+16       work.frame_fifo_read.verilog
+17       work.frame_fifo_write.verilog
+18       work.frame_read_write.verilog
+19       work.i2c_config.verilog
+20       work.i2c_master_bit_ctrl.verilog
+21       work.i2c_master_byte_ctrl.verilog
+22       work.i2c_master_top.verilog
+24       work.ipml_fifo_ctrl_v1_3.verilog
+25       work.ipml_fifo_v1_4_afifo_16i_16o_512.verilog
+26       work.ipml_rom_v1_3_osd_rom.verilog
+27       work.ipml_sdpram_v1_4_afifo_16i_16o_512.verilog
+28       work.ipml_spram_v1_3_osd_rom.verilog
+29       work.ipsl_ddrc_apb_reset.verilog
+30       work.ipsl_ddrc_reset_ctrl.verilog
+31       work.ipsl_ddrphy_dll_update_ctrl.verilog
+32       work.ipsl_ddrphy_reset_ctrl.verilog
+33       work.ipsl_ddrphy_training_ctrl.verilog
+34       work.ipsl_ddrphy_update_ctrl.verilog
+35       work.ipsl_hmemc_ddrc_top.verilog
+36       work.ipsl_hmemc_phy_top.verilog
+37       work.ipsl_phy_io.verilog
+38       work.key_Module.verilog
+39       work.lut_ov5640_rgb565_1024_768.verilog
+40       work.osd_rom.verilog
+41       work.pll_50_400.verilog
+42       work.serdes_4b_10to1.verilog
+43       work.sin_table.verilog
+44       work.timing_gen_xy.verilog
+45       work.top.verilog
+46       work.video_pll.verilog
+47       work.video_timing_data.verilog
